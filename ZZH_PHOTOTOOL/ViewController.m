@@ -20,6 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     UIButton *openButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    
     openButton.frame = CGRectMake( 100, 100, 100, 60);
     [openButton addTarget:self action:@selector(openPhoto) forControlEvents:UIControlEventTouchUpInside];
     openButton.backgroundColor = [UIColor redColor];
